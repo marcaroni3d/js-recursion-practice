@@ -16,8 +16,3 @@ function fibsRecursive(num) {
     answer.push(answer[answer.length-1] + answer[answer.length-2])
     return answer
 }
-
-console.log(
-    fibsLoop(5),
-fibsRecursive(5),
-)
