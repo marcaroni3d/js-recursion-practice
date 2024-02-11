@@ -1,1 +1,1 @@
-# recursion-practice
+# js-recursion-practice

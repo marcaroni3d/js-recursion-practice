@@ -41,6 +41,7 @@ function productOfArray(array) {
     if (array.length === 0) return 1;
     return array.shift() * productOfArray(array)
 }
+const productArrayTest = productOfArray([1,2,3,4])
 
 // search for value in a nested object, return true if it does
 function contains(obj, value) {
@@ -69,4 +70,3 @@ function contains(obj, value) {
             }
         }
     }
-
